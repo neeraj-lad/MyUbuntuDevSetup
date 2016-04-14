@@ -13,18 +13,14 @@
 	
 ## Vim	
 ### Install
-    ```shell
     $ sudo apt-get install vim-gnome`
-    ```
     
 ### Set preferences
 
 
 ## Git
 ### Install
-    ```shell
     $ sudo apt-get install git-core`
-    ```
     
 ### Set config
     $ git config --global user.name '<user name>'
@@ -53,44 +49,34 @@
 ### For terminal
     Source: [webup8](http://www.webupd8.org/2011/04/solarized-must-have-color-paletter-for.html)
     
-    ```shell
     $ wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
     $ mv dircolors.ansi-dark .dircolors
     $ eval `dircolors ~/.dircolors`
-    ```
    
  
-    ```shell
     $ git clone https://github.com/sigurdga/gnome-terminal-colors-solarized.git
     $ cd gnome-terminal-colors-solarized
     $ ./set_dark.sh
-    ```
     
 ### For Vim
     Source: [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
     
-    ```shell
     $ git clone https://github.com/altercation/vim-colors-solarized
     $ cd vim-colors-solarized/colors
     $ mkdir ~/.vim/colors
     $ mv solarized.vim ~/.vim/colors/
-    ```
    
  
     Edit ~/.vimrc
-    ```shell
     syntax enable
     set background=dark
     colorscheme solarized
-    ```
 
 ### For gedit
     Source: [solarized-gedit](https://github.com/mattcan/solarized-gedit)
-    ```shell
     $ git clone git://github.com/mattcan/solarized-gedit.git
     $ mkdir -p ~/.local/share/gedit/styles
     $ cp solarized-* ~/.local/share/gedit/styles
-    ```
 
 
     Set the Solarized colorscheme from Preferences
