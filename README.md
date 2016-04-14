@@ -1,6 +1,7 @@
 # My Ubuntu Development Setup
 
 ## gedit
+--------
 	* Display line numbers
 	* Set tabwidth to 4
 	* Set spaces instead of tabs
@@ -11,7 +12,8 @@
 	* Set color scheme to Cobalt
 	
 	
-## Vim	
+## Vim
+------
 ### Install
     $ sudo apt-get install vim-gnome`
     
@@ -19,6 +21,7 @@
 
 
 ## Git
+------
 ### Install
     $ sudo apt-get install git-core`
     
@@ -32,6 +35,7 @@
 
 	
 ## Chrome
+---------
 ### Install
 
 ### Edit chrome settings
@@ -45,7 +49,8 @@
 ### Install extensions
  
  
-## Solarized Theme   
+## Solarized Theme
+------------------
 ### For terminal
     Source: [webup8](http://www.webupd8.org/2011/04/solarized-must-have-color-paletter-for.html)
     
