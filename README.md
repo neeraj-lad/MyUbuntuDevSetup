@@ -15,15 +15,15 @@
 ## Vim
 ------
 ### Install
-    $ sudo apt-get install vim-gnome`
+    $ sudo apt-get install vim-gnome
     
-### Set preferences
+### Setup .vimrc
 
 
 ## Git
 ------
 ### Install
-    $ sudo apt-get install git-core`
+    $ sudo apt-get install git-core
     
 ### Set config
     $ git config --global user.name '<user name>'
@@ -44,7 +44,7 @@
     * Enable 'do not track' request
     * Disable offer to save pswd
     * Set font size to medium
-    * Set page zoom to 125%
+    * Set page zoom to 150%
     
 ### Install extensions
  
@@ -85,3 +85,59 @@
 
 
     Set the Solarized colorscheme from Preferences
+ 
+# Compilers
+----------- 
+    
+# Ubuntu
+--------
+## Ubuntu Settings
+    * Set Time & Date settings
+    * Set Lock screen time
+    * Disable Dash online search
+    * Setup Déjà Dup
+    
+## Install the Inconsolata font
+    sudo apt-get install fonts-inconsolata
+    sudo fc-cache -fv 
+    
+    Set terminal to use it. Set Inconsolata Medium with font size of 19
+     
+## Caffeine Indicator
+    Source: [ubuntuhandbook](http://ubuntuhandbook.org/index.php/2015/01/install-caffeine-indicator-ubuntu-14-04/)
+    $ sudo add-apt-repository ppa:caffeine-developers/ppa
+    
+    $ sudo apt-get update
+    $ sudo apt-get install caffeine
+    
+    Add Caffeine to the Startup Applications.
+    
+## Ubuntu Indicator Applets
+    * Multiload
+    $ sudo apt-get install indicator-multiload
+    
+## Stopwatch
+
+# Python
+--------
+## Install pip
+    sudo apt-get install python-pip
+    
+## Install virtualenv
+    sudo pip install virtualenv
+    
+    mkdir ~/.virtualenvs
+
+## Install virtualenvwrapper
+
+    sudo pip install virtualenvwrapper
+    
+    #Set WORKON_HOME to your virtualenv dir
+    export WORKON_HOME=~/.virtualenvs
+    
+    #Add virtualenvwrapper.sh to .bashrc
+    . /usr/local/bin/virtualenvwrapper.sh
+    
+# Topcoder
+----------
+## Install Java Webstart
