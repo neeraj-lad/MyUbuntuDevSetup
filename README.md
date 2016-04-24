@@ -89,6 +89,7 @@
 # Compilers
 ----------- 
     
+
 # Ubuntu
 --------
 ## Ubuntu Settings
@@ -105,6 +106,7 @@
      
 ## Caffeine Indicator
     Source: [ubuntuhandbook](http://ubuntuhandbook.org/index.php/2015/01/install-caffeine-indicator-ubuntu-14-04/)
+    
     $ sudo add-apt-repository ppa:caffeine-developers/ppa
     
     $ sudo apt-get update
@@ -118,6 +120,7 @@
     
 ## Stopwatch
 
+
 # Python
 --------
 ## Install pip
@@ -129,7 +132,6 @@
     mkdir ~/.virtualenvs
 
 ## Install virtualenvwrapper
-
     sudo pip install virtualenvwrapper
     
     #Set WORKON_HOME to your virtualenv dir
@@ -138,6 +140,41 @@
     #Add virtualenvwrapper.sh to .bashrc
     . /usr/local/bin/virtualenvwrapper.sh
     
+
 # Topcoder
 ----------
 ## Install Java Webstart
+
+## Setup Vimcoder
+
+
+# LAMP Stack
+------------
+Source: [howtoubuntu.org](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu)
+
+## Install Apache
+    sudo apt-get install apache2
+    
+## Install MySQL
+    sudo apt-get install mysql-server
+
+## Install PHP
+    sudo apt-get install php5 libapache2-mod-php5
+    
+## Restart Apache
+    sudo /etc/init.d/apache2 restart
+    
+## Check
+    Check Apache is working:
+    Navigate to http://localhost/
+    
+    Check PHP is working:
+    php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
+    
+# Adobe Brackets
+----------------
+Source: [webupd8](http://www.webupd8.org/2013/11/install-brackets-in-ubuntu-via-ppa-open.html)
+
+    sudo add-apt-repository ppa:webupd8team/brackets
+    sudo apt-get update
+    sudo apt-get install brackets
