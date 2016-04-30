@@ -52,7 +52,7 @@
 ## Solarized Theme
 ------------------
 ### For terminal
-    Source: [webup8](http://www.webupd8.org/2011/04/solarized-must-have-color-paletter-for.html)
+Source: [webup8](http://www.webupd8.org/2011/04/solarized-must-have-color-paletter-for.html)
     
     $ wget --no-check-certificate https://raw.github.com/seebi/dircolors-solarized/master/dircolors.ansi-dark
     $ mv dircolors.ansi-dark .dircolors
@@ -64,7 +64,7 @@
     $ ./set_dark.sh
     
 ### For Vim
-    Source: [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
+Source: [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
     
     $ git clone https://github.com/altercation/vim-colors-solarized
     $ cd vim-colors-solarized/colors
@@ -78,7 +78,8 @@
     colorscheme solarized
 
 ### For gedit
-    Source: [solarized-gedit](https://github.com/mattcan/solarized-gedit)
+Source: [solarized-gedit](https://github.com/mattcan/solarized-gedit)
+
     $ git clone git://github.com/mattcan/solarized-gedit.git
     $ mkdir -p ~/.local/share/gedit/styles
     $ cp solarized-* ~/.local/share/gedit/styles
@@ -105,7 +106,7 @@
     Set terminal to use it. Set Inconsolata Medium with font size of 19
      
 ## Caffeine Indicator
-    Source: [ubuntuhandbook](http://ubuntuhandbook.org/index.php/2015/01/install-caffeine-indicator-ubuntu-14-04/)
+Source: [ubuntuhandbook](http://ubuntuhandbook.org/index.php/2015/01/install-caffeine-indicator-ubuntu-14-04/)
     
     $ sudo add-apt-repository ppa:caffeine-developers/ppa
     
